@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-  <a href="https://unpkg.com/in-us/src/index.js">
-    <img src="https://img.badgesize.io/https://unpkg.com/in-us/src/index.js?compression=gzip&amp;label=in--us&cache=2">
+  <a href="https://unpkg.com/in-us/index.js">
+    <img src="https://img.badgesize.io/https://unpkg.com/in-us/index.js?compression=gzip&amp;label=in--us&cache=2">
   </a>
   <a href="https://www.npmjs.com/package/in-us">
-    <img src="https://img.shields.io/npm/v/in-us.svg?maxAge=3600&label=in--us&colorB=007ec6">
+    <img src="https://img.shields.io/npm/v/in-us.svg?maxAge=3600&label=in-us&colorB=007ec6">
   </a>
 </p>
 <br/>
