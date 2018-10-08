@@ -1,7 +1,7 @@
 {
   "name": "in-us",
   "version": "0.0.1",
-  "description": "Utility to determine if a user is in the U.S., without an HTTP connection or IP address",
+  "description": "Utility to determine if a user is in the United States, without an HTTP request or IP address",
   "keywords": [
     "usa",
     "in-us",

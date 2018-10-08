@@ -1,9 +1,24 @@
-# 🌎 in-us
+<p align="center">
+  <strong>🌎 in-us</strong>
+</p>
 
-`in-us` is a utility to determine if a user is in the U.S., without an HTTP connection or IP address.
+<p align="center">
+  Utility to determine if a user is in the United States<br />
+  without an HTTP request or IP address.
+</p>
 
-It uses the browser's timezone (via [jstz](https://github.com/iansinnott/jstz) and [locale](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language) (`navigator.languages`) to infer whether someone is in U.S..
-This project is inspired by [`in-eu`](https://github.com/segmentio/in-eu).
+<p align="center">
+  <a href="https://unpkg.com/in-us/src/index.js">
+    <img src="https://img.badgesize.io/https://unpkg.com/in-us/src/index.js?compression=gzip&amp;label=in--us&cache=2">
+  </a>
+  <a href="https://www.npmjs.com/package/in-us">
+    <img src="https://img.shields.io/npm/v/in-us.svg?maxAge=3600&label=in--us&colorB=007ec6">
+  </a>
+</p>
+<br/>
+
+It uses the browser's timezone (via [jstz](https://github.com/iansinnott/jstz) and [locale](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language) (`navigator.languages`) to infer whether someone is in United States.
+This project is inspired by [`in-eu` by Segment](https://github.com/segmentio/in-eu).
 
 ## Getting Started
 
@@ -38,7 +53,8 @@ inUS()
 import { isInUSTimezone } from 'in-us'
 
 /*
- Only checks the browser timezone.
+  Only checks the browser timezone.
+  e.g. America/Chicago
 */
 
 isInUSTimezone()
@@ -51,8 +67,8 @@ isInUSTimezone()
 import { isUSLocale } from 'in-us'
 
 /*
- Only uses the browser's language/locale
- e.g. en-US (english from United Staes)
+  Only uses the browser's language/locale
+  e.g. es-US (spanish from United Staes)
 */
 
 isUSLocale()
