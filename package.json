@@ -1,0 +1,30 @@
+{
+  "name": "in-us",
+  "version": "0.0.1",
+  "description": "Utility to determine if a user is in the U.S., without an HTTP connection or IP address",
+  "keywords": [
+    "usa",
+    "in-us",
+    "locale",
+    "america",
+    "timezone",
+    "united states"
+  ],
+  "repository": "usermirror/in-us",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "UserMirror <open@usermirror.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jstz": "^2.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "browser-env": "^3.2.5"
+  }
+}
